@@ -254,10 +254,259 @@ str5 = "apple"
 
     # Collection:
         # 1) List
+# list1 = []
+# print(list1, type(list1))
+
+# list2 = [1, 2, 3, 4, 5]
+# print(list2, type(list2))
+
+# list3 = [1, 2.2, 3+6j, True, "Banna", [100, 200, 300]]
+# print(list3, type(list3))
+
+# Indexing upon list:
+
+# l1 = [12, 23, 34, 45, 56, 67]
+# print(l1)
+# print(type(l1))
+# print(len(l1))
+
+# Positive Indexing:
+# print(l1[0])  #12
+# print(l1[1])  #23
+# print(l1[4])  #56
+
+# Negative Indexing
+# print(l1[-6])
+# print(l1[-5])
+# print(l1[-2])
+
+#---- Slicing:
+# print(l1[0:3:1])
+# print(l1[3::1])
+# print(l1[0::2])
+# print(l1[-1::-2])
+
+# In built methods fo list:
+# l2 = [1, 34.5, 8-9j, False, [1, 2, 3], "CAKE"]
+
+# Insertion Methods
+    # .append()  # takes only 1 argument and adds it at last of list
+# l2.append(100)
+# l2.append("sanju")
+
+    # .extend() # takes only 1 argument as acollection and adds it at last
+# l2.extend([1.1, 2.2, 3.3, 4.4])
+
+    # .insert() # takes two arguments first index number and second element
+# l2.insert(0, 10000)
+
+# print(l2)
+
+#---- Deletion of elements methods
+# l2 = [1, 34.5, 8-9j, False, [1, 2, 3], "CAKE", 34.5]
+
+#     # .pop() # deletes last element from list
+# l2.pop()
+#     # .remove()  # deletes specified element from list
+# l2.remove(34.5)
+#     # .clear() # it deletes all elements from list and makes list empty
+# l2.clear()
+
+# print(l2)
+
+# Search methods:
+
+# l3 = [11, 22, 33, 22, 44, 55, 66, 22, 77]
+# print(l3.index(33))
+
+# count the appearances of particular element
+
+# print(l3.count(22))
+
+# Sort and reverse methods
+
+l4 = [4, 2, 3, 9, 0, 1, 8, 6]
+
+# l4.sort()   # when sorting do not print
+# print(l4)   #[0, 1, 2, 3, 4, 6, 8, 9]
+
+# l4.sort(reverse=True)
+# print(l4)  #[9, 8, 6, 4, 3, 2, 1, 0]
+
+# l4.reverse()   # while performing reverse ops do not print
+# print(l4)  #[6, 8, 1, 0, 9, 3, 2, 4]
+
+# .copy()
+
+# l5 = l4.copy()
+
+# print(l5)
+
+# Some other operations:
+    # Concatination
+
+l1 = [1, 2, 3, 4]
+l2 = [4, 5, 6]
+
+# print(l1 + l2)
+
+    # repetation of list
+
+# print(l1 * 5)
+
+    # Packing and unpacking
+
+# x, y, z = l1   #ValueError: too many values to unpack (expected 3)
+# print(x)
+# print(y)
+# print(z)
+#-----------------------------------------------------------
+#-----------------------------------------------------------
+
         # 2) Tuple
+
+# tup1 = ()
+# print(tup1, type(tup1))
+
+# tup2 = (1, 2, 3, 4, 5, 6)
+# print(tup2, type(tup2))
+
+# tup3 = (1, 2.2, 3+4j, True, [100, 200, 300], (9, 8, 7), "Appple")
+# print(tup3, type(tup3))
+
+# Positive Indexing
+
+tup4 = (12, 23, 34, 4, 5, 5, 6, 6, 7, 23, 1, 4, 5, 23)
+# print(tup4[2])
+# print(tup4[6])
+# print(tup4[7])
+
+# Negative Indexing
+# print(tup4[-6])
+# print(tup4[-9])
+
+# Slicing:
+# print(tup4[-2::-3])
+
+# In built methods of tuple
+    # .index()  # it gets you the index of element
+
+# print(tup4.index(4))
+
+    # .count() 
+# print(tup4.count(23))
+
+# Some other methods of tuple
+# t1 = (1, 2 , 3)
+# t2 = (4, 5, 6)
+
+    # Concatination
+# print(t1 + t2)
+
+    # repetaion
+# print(t1 * 3)
+
+    # Packing and unpacking
+# m, n, o = t2
+# print(m)
+# print(n)
+# print(o)
+
+# print(tup4[tup4.index(12)])
+#----------------------------------------------------
+#----------------------------------------------------
+
+
         # 3) Set
 
+# set1 = {1}
+# print(set1, type(set1))
+
+
+# set2 = set()
+# print(set2, type(set2))
+
+# set3 = {1, 2, 3, 4}
+# print(set3, type(set3))
+
+# set4 = {1, 2.2, 3+5j, True, "grapes", (11, 22, 33)}
+# print(set4, type(set4))
+
+#---------------------------------------
+
+# In Built Methods of Set:
+
+# s1 = {1, 2, 3, 4, 5, 6}
+    # Insertion methods:
+# s1.add(7)
+# s1.update({9, 10, 11, 12})
+
+    # Deletion Methods:
+# s1.pop()  # deletes any random element from set
+
+# s1.remove(3)  # deletes specified element
+
+# s1.clear()   # removes all elements from set and makes set empty
+
+# print(s1)
+
+#-----------------------------------------
+s1 = {1, 2, 3}
+s2 = {3, 4, 5}
+
+# Set Operations:
+    # Union   |
+# print(s1.union(s2))  #{1, 2, 3, 4, 5}
+# print(s1 | s2)
+
+    # Difference -
+# print(s1.difference(s2))   # {1, 2}
+# print(s1-s2)
+# print(s2.difference(s1))   # {4, 5}
+# print(s2-s1)
+    # Intersection  &
+# print(s1.intersection(s2))
+# print(s1 & s2)
+
+
+# Bellow methods make permanent changes in sets
+
+# union update
+# s1.update(s2)
+# print(s1)
+
+# intersection update
+# s1.intersection_update(s2)
+# print(s1)
+
+# difference update
+# s1.difference_update(s2)
+# print(s1)
+# print(s1.isdisjoint(s2))
+
+# s3 = {8, 0}   #   Superset
+# s4 = {8, 0}   # Subset
+# print(s3.issuperset(s4))
+# print(s4.issubset(s3))
+
+# print(s4.issuperset(s3))
+# print(s3.issubset(s4))
+
+
     # Range
+        # It develops immutable sequence of numbers
+        # Range develops numbers but never stores them in memory
+        # Because of this range is memory friendly
+
+    # [Start: End: Step]
+# r1 = range(5)  # default start = 0, end =5, default step = 1
+# print(r1)
+# print(list(r1))
+
+
+# r2 = range(7,16,2)
+# print(r2)
+# print(tuple(r2))
 
     # Dictionary
 
