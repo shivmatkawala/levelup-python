@@ -510,3 +510,89 @@ s2 = {3, 4, 5}
 
     # Dictionary
 
+        # Dictionary is a collection of key and value pairs.
+
+        # Dictionary is ordered datatype but it is indexed using its key.
+
+        #  Dictionary is mutable
+        #  Dictionary is also heterogeneous
+
+# dict1 = {}
+# print(dict1, type(dict1))   #<class 'dict'>
+
+# dict2 = {1:1, 2:4, 3:9, 4:16, 5:25}
+# print(dict2, type(dict2))
+
+# dict3 = {1:"Masood", 2:"Vishal", 3:"Divya"}
+# print(dict3, type(dict3))
+
+
+# dict4 = {"Masood": 12, "Vishal": 34, "Divya": 1}
+# print(dict4, type(dict4))
+
+# dict5 = {"Masood": [89, 12, "Male", False], "Vishal": [78, 34, "Male", True]}
+# print(dict5, type(dict5))
+
+
+# dict6 = {"Masood": {"Roll_No": 12, "Marks": 89, "Gender": "Male"}, "Vishal": {"Roll_No": 34, "Marks": 89, "Gender": "Male"}}
+# print(dict6, type(dict6))
+
+
+#------------------------------------
+# Indexing on Dict:
+
+# d1 = {"A": 65, "D": 68, "a": 97, "b": 98, "@": 64}
+# print(d1)
+# print(d1["b"])
+# print(d1["D"])
+
+#------------------------------
+# d1 = {"A": 65, "D": 68, "a": 97, "b": 98, "@": 64, "D": 100}
+# d1["D"] = 100
+# d1["Z"] = 23
+
+# print(d1)
+
+# Built in Methods of Dict:
+
+d1 = {"A": 65, "D": 68, "a": 97, "b": 98, "@": 64, "D": 100}
+
+# print(d1.items())
+# print(d1.keys())
+# print(d1.values())
+
+# .get()
+# print(d1.get("@"))
+
+#.copy()
+# d2 = d1.copy()
+# print(d2)
+
+# d1.pop('a')   # It deletes key value pair, using key
+# print(d1)
+
+# d1.popitem()   # It delets any last item
+# print(d1)
+
+
+# d1.clear()  # It deletes all elements
+# print(d1)
+
+
+#----- Some Other Operations:
+
+# students = ["Masood", "Vishal", "Divya"]
+# marks = [89, 78, 40]
+
+# dict11 = dict(zip(students, marks))
+# print(dict11)
+
+
+# fruits = ["Apple", "Mango", "Pineapple", "Avocado"]
+
+# dict12 = dict.fromkeys(fruits, "Sweet")
+# print(dict12)
+
+
+# dict13 = dict(mango="fruit", mobile="electronics", marks=34, city="Hyd")
+# print(dict13)
