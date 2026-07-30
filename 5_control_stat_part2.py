@@ -54,3 +54,4 @@ list1 = [True, 1, 7.5, "9", 0, 8, 7, "Apple"]  # 1087
 #         st1+=str(i)
     
 # print(st1)
+
