@@ -75,4 +75,68 @@ str1 = "D*3961M7@5"
 # Write a Tuple Complrehension with all the 
 # special charecters from string bellow
 
-str1 = "12@#fgGH"
+# str1 = "12@#fgGH"
+
+#-----------------------------------------
+
+# Set Comprehension 
+
+# Create a set comprehension using bellow string
+# where all the charecters from it will be available.
+# No duplicates, even lower or upper charecters.
+
+# str2 = "123@#$asdfASDF"
+
+# set1 = {char.lower() for char in str2}
+# print(set1)
+
+
+# Write a set comprehension where all the numbers from
+# 0 to 10 will be available.
+
+# {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}  Statically
+
+# set2 = {num for num in range(0, 10)}
+# print(set2)
+
+
+# Write a set comprehension where you get 
+# all odd numbers from 0 to 20
+
+# set3 = {num for num in range(0, 20) if num % 2 != 0}
+# print(set3)
+
+
+# Write a set comprehension to have all those numbers
+# which are greater than 5 or less than 0 from bellow list
+
+# l1 = [9, 3, 7, -1, -4, 0, 5, 2]
+
+# set4 = {num for num in l1 if num > 5 or num < 0}
+# print(set4)
+
+
+#--------------------------
+
+# Dictionary Comprehension:
+
+# Write a program to create a dictionary of 
+# numbers from 1 to 10 with there squares
+# {1:1, 2:4, 3:9, 4:16, 5:25, 6:36, 7:49, 8:64, 9:81}
+
+# d1 = {num: num**2 for num in range(1, 10)}
+# print(d1)
+
+# Write a dictionary comprehension where you use bellow string
+# need each charecter with its ascii number
+# charecter as a key and ascii as a value
+
+# st1 ="apple@123😭"
+# {"a": 97, }
+
+# d2 = {char: ord(char) for char in st1}
+# print(d2)
+
+
+#----------------------
+
