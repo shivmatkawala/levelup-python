@@ -1,0 +1,9 @@
+Hello Friends this Python..
+I was developed by Guido Van Rossum in 1992.
+
+Now I am being used in multiple streams of IT.
+    # 1) Development
+    # 2) AI
+    # 3) Data Science
+
+    
